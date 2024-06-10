@@ -1,11 +1,14 @@
-import { Section } from '../Section'
-import logo from '../../assets/logo.svg'
+import { Section } from "../Section";
+import logo from "../../assets/logo.svg";
+import "./Header.css";
+
 export const Header = () => {
   return (
     <header>
-        <div><img src={logo}/></div>
-        <Section />
-
+      <div className="header-img-container">
+        <img src={logo} />
+      </div>
+      <Section />
     </header>
-  )
-}
+  );
+};
