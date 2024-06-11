@@ -1,0 +1,35 @@
+.plans {
+  width: 327px;
+  height: 972px;
+}
+
+.plans .plan-boxes1,
+.plans .plan-boxes2 {
+  width: 327px;
+  height: 459px;
+}
+
+.section1 h4 {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 25px; /* 138.889% */
+}
+
+.section1 p {
+  width: 268px;
+  color: #fff;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  height: 75px;
+  border: orange;
+}
+
+li {
+  list-style-type: none;
+}

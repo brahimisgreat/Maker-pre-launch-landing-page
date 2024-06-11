@@ -1,0 +1,22 @@
+.hook {
+  width: 327px;
+}
+
+.hook p {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px; /* 125% */
+}
+
+.hook p span {
+  color: #3ee9e5;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+}
