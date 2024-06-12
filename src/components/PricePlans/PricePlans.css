@@ -1,5 +1,8 @@
 .pricePlans {
   width: 213px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pricePlans h2 {
