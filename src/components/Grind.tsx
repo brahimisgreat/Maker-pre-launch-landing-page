@@ -1,4 +1,3 @@
-import React from "react";
 import "./Grind.css";
 
 export const Grind = () => {

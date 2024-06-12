@@ -6,10 +6,11 @@ import { Logo } from "./components/Logo";
 import icon from './assets/icon-scroll.svg'
 import { Content } from "./components/Content";
 import { PricePlans } from "./components/PricePlans/PricePlans";
+import { EmailForm } from "./components/EmailForm";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Logo />
       <Hero />
       <Hook />
@@ -17,6 +18,7 @@ function App() {
       <img  src={icon}/>
       <Content />
       <PricePlans />
+      <EmailForm />
     </div>
   );
 }

@@ -1,7 +1,11 @@
 .plans {
   width: 327px;
   height: 972px;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
 }
+
 
 .plans .plan-boxes1,
 .plans .plan-boxes2 {
@@ -19,17 +23,118 @@
 }
 
 .section1 p {
-  width: 268px;
   color: #fff;
   font-family: Manrope;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 25px; /* 166.667% */
-  height: 75px;
-  border: orange;
+  width: 268px;
+  opacity: 0.5973;
 }
 
 li {
   list-style-type: none;
+  display: flex;
+  gap: 15.319px;
+  align-items: center;
+}
+ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+li img {
+  width: 11.363px;
+  height: 8.098px;
+}
+
+.plan-boxes1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 8px;
+  background: #093f68;
+  align-items: center;
+  justify-content: center;
+}
+.plan-boxes2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  background: #3ee9e5;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.section2 {
+  width: 268px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section2 h3 {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.plan-boxes2 .section1 h4 {
+  color: #080c20;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 25px; /* 138.889% */
+}
+
+.plan-boxes2 .section1 p {
+  color: #080c20;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
+
+.plan-boxes2 .section2 h4 {
+  color: #080c20;
+  font-family: Manrope;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.plan-boxes2 .section2 h4 span {
+  color: #080c20;
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
+
+.plan-boxes2 .section2 li{
+  color: #080C20;
+font-family: Manrope;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
 }
