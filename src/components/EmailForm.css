@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   gap: 31px;
-  border: solid 1px red;
+  align-items: center;
 }
 
 .emailForm h2 {
@@ -78,6 +78,25 @@ button {
   line-height: 25px; /* 166.667% */
 }
 
+@media screen and (min-width: 768px){
+ .emailForm form{
+  display: flex;
+  flex-direction: row;
+  width: 476px;
+ }
+ .emailForm h2{
+  width: 336px;
+ }
+
+  .emailForm input{
+    width: 320px;
+    
+  }
+  .emailForm button{
+    width: 104px;
+  }
+}
+
 input:focus::-webkit-input-placeholder {
   color: transparent;
 }
@@ -90,3 +109,4 @@ input:focus::-moz-placeholder {
 input:focus:-ms-input-placeholder {
   color: transparent;
 } /* oldIE ;) */
+

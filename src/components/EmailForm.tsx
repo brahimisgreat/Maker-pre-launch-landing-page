@@ -12,7 +12,7 @@ export const EmailForm = () => {
   return (
     <div className="emailForm">
       <h2>
-        Get notified when <br />
+        Get notified when
         we launch
       </h2>
       <form onSubmit={handleSubmit}>

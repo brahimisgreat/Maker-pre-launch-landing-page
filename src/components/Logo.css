@@ -1,5 +1,13 @@
-.logo img{
-    width: 120px;
-height: 35px;
-flex-shrink: 0;
+.Logo img {
+  width: 120px;
+  height: 35px;
+}
+
+@media (min-width: 768px) {
+  .Logo {
+    width: 100%;
+    position: relative;
+    bottom: 130px;
+    left: 120px;
+  }
 }

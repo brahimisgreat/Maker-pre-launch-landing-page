@@ -3,7 +3,7 @@ import { Grind } from "./components/Grind";
 import { Hero } from "./components/Hero";
 import { Hook } from "./components/Hook";
 import { Logo } from "./components/Logo";
-import icon from './assets/icon-scroll.svg'
+import icon from "./assets/icon-scroll.svg";
 import { Content } from "./components/Content";
 import { PricePlans } from "./components/PricePlans/PricePlans";
 import { EmailForm } from "./components/EmailForm";
@@ -11,11 +11,13 @@ import { EmailForm } from "./components/EmailForm";
 function App() {
   return (
     <div className="app">
-      <Logo />
-      <Hero />
-      <Hook />
-      <Grind />
-      <img  src={icon}/>
+      <div className="first">
+        <Logo />
+        <Hero />
+        <Hook />
+        <Grind />
+        <img id='first-img' src={icon} />
+      </div>
       <Content />
       <PricePlans />
       <EmailForm />

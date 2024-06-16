@@ -5,8 +5,8 @@ import './Hero.css'
 export const Hero = () => {
   return (
     <div className='hero'>
-        <img  src={heroLeft} />
-        <img  src={heroRight} />
+        <img   id='heroLeft' src={heroLeft} />
+        <img  id='heroRight' src={heroRight} />
     </div>
   )
 }

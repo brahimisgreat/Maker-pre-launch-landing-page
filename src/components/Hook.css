@@ -14,9 +14,17 @@
 
 .hook p span {
   color: #3ee9e5;
-  font-family: Manrope;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 40px;
+}
+
+@media screen and (min-width: 768px){
+  .hook{
+    width: 457px;
+    height: 81px;
+    position: relative;
+    bottom: 30px;
+  }
+  .hook span{
+    position: inline;
+  }
+  
 }

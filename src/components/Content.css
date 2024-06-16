@@ -5,7 +5,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  border: solid 1px blue;
 }
 
 .boxes {
@@ -40,4 +39,28 @@
   font-style: normal;
   font-weight: 400;
   line-height: 25px; /* 166.667% */
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    width: 573px;
+    height: 614px;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: row;
+  }
+  .square1 p{
+    width: 340px;
+  }
+
+  #box1, #box3{
+    position: relative;
+    left: 50px;
+  }
+
+  #box2, #box4{
+    position: relative;
+    right: 50px;
+  }
 }

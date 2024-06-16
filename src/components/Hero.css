@@ -4,4 +4,22 @@
   display: flex;
 }
 
-
+@media screen and (min-width: 768px) {
+  .hero {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .hero img {
+    width: 314px;
+    height: 356px;
+    position: relative;
+  }
+  #heroLeft{
+    right: 168px;
+    bottom: 65px;
+  }
+  #heroRight{
+    left: 168px;
+    bottom: 65px;
+  }
+}
